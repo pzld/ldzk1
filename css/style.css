@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+html {
+  font-size: 625%;
+}
+
+html,
+body,
+.wrap {
+  width: 100%;
+  height: 100%;
+}
+
+.wrap {
+  font-size: .14rem;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  width: 100%;
+  height: .4rem;
+  padding: 0 .1rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: red;
+  color: #fff;
+}
+
+header .ipt {
+  background: #fff;
+  border-radius: .05rem;
+  color: #ccc;
+  box-sizing: border-box;
+  padding-left: .1rem;
+  height: .25rem;
+  line-height: .25rem;
+}
+
+header .ipt input {
+  border: none;
+  outline: none;
+  background: none;
+}
+
+header .ipt ::-webkit-input-placeholder {
+  color: #ccc;
+}
+
+section {
+  flex: 1;
+  width: 100%;
+  overflow-y: scroll;
+}
+
+section nav {
+  height: .3rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: .01rem solid #ccc;
+}
+
+section nav span {
+  font-size: .12rem;
+}
+
+section nav span.active {
+  color: red;
+}
+
+section .main {
+  width: 100%;
+  padding: .1rem;
+  box-sizing: border-box;
+}
+
+section .main .pro {
+  padding-bottom: .1rem;
+  margin: .1rem 0;
+  border-bottom: .01rem solid #ccc;
+}
+
+section .main dl {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+section .main dl dt {
+  width: 40%;
+}
+
+section .main dl dt img {
+  width: 100%;
+  height: auto;
+}
+
+section .main dl dd {
+  font-size: .12rem;
+}
+
+section .main dl dd p {
+  font-size: .1rem;
+}
+
+section .main .pf {
+  width: 45%;
+  margin-top: .05rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: .12rem;
+  color: #ccc;
+}
+
+section .main .pf span {
+  width: 10%;
+  margin-left: .05rem;
+}
+
+section .main .pf span img {
+  width: 100%;
+  height: auto;
+}

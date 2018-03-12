@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,maximum-scale=1.0,minimum-sacle=1.0,initial-scale=1.0,user-scalable=no">
+    <meta http-equiv="X-UA-Compatiable" content="IE=Edge,chrome=1.0">
+    <meta name="format-detection" content="telephone=no,email=no,adress=no">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="icon/iconfont.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <header>
+            <p>
+                <i class="iconfont">&#xe648;</i>
+            </p>
+            <p>
+                <span>上海 ▼</span>
+            </p>
+            <p class="ipt">
+                <i class="iconfont">&#xe729;</i>
+                <input type="text" placeholder="输入区域，小区">
+            </p>
+            <p>
+                <i class="iconfont">&#xe647;</i>
+            </p>
+        </header>
+        <section>
+            <nav>
+                <span>位置</span>
+                <span>租金</span>
+                <span class="active">合租</span>
+                <span>更多</span>
+            </nav>
+            <div class="main">
+                <div class="pro">
+                    <dl>
+                        <dt>
+                            <img src="img/1.jpg" alt="">
+                        </dt>
+                        <dd>
+                            <h3>德圣苑</h3>
+                            <h4>￥2200
+                                <span>可月付</span>
+                            </h4>
+                            <p>7户 丨 朝东-次卧 丨 15M²</p>
+                            <p>浦东-北蔡</p>
+                            <div>
+                                <p>
+                                    <span>新上架</span>
+                                    <span>独卫</span>
+                                    <span>独立厨房</span>
+                                </p>
+                                <p>今天发布</p>
+                            </div>
+                        </dd>
+                    </dl>
+                    <p class="pf">
+                        <span>
+                            <img src="img/heart.jpg" alt="">
+                        </span>
+                        <span>
+                            <img src="img/heart.jpg" alt="">
+                        </span>
+                        <span>
+                            <img src="img/heart.jpg" alt="">
+                        </span>
+                        <span>
+                            <img src="img/heart.jpg" alt="">
+                        </span>
+                        <span>
+                            <img src="img/heart-h.jpg" alt="">
+                        </span>
+                        <b>4.6分</b>
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+<script src="js/jquery.js"></script>
+<script>
+    $.ajax({
+        url: 'http://localhost:8888',
+        success: function(data) {
+            console.log(data)
+        }
+    })
+</script>
+
+</html>
